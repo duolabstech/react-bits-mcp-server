@@ -1,0 +1,58 @@
+{
+  "name": "react-bits-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for React Bits - Access 99+ React components with animations, backgrounds, and UI elements",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "react-bits-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "react",
+    "components",
+    "ui",
+    "animations",
+    "backgrounds",
+    "text-animations",
+    "framer-motion",
+    "tailwind",
+    "react-bits"
+  ],
+  "author": "React Bits Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duolabstech/react-bits-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duolabstech/react-bits-mcp-server/issues"
+  },
+  "homepage": "https://github.com/duolabstech/react-bits-mcp-server#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "handler.js",
+    "prompts.js",
+    "resources.js",
+    "resource-templates.js",
+    "tools/",
+    "utils/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  }
+}
