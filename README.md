@@ -46,6 +46,7 @@ Add to your MCP client configuration:
 ```
 ### If you're a Vibe Coder
 Add to your assistent Cursor, Trae, Windsurf, VSCode:
+
 ```json
 {
   "mcpServers": {
@@ -59,8 +60,9 @@ Add to your assistent Cursor, Trae, Windsurf, VSCode:
       }
     }
   }
-}```
+}
 
+```
 ## 🛠️ Available Tools
 
 | Tool | Description |
