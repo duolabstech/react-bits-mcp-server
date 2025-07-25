@@ -178,4 +178,4 @@ If you encounter any issues, please report them on [GitHub Issues](https://githu
 
 ---
 
-**Made with ❤️ by the React Bits Team**
+**Made with ❤️ by the Duo Creative Labs**
