@@ -44,6 +44,22 @@ Add to your MCP client configuration:
   }
 }
 ```
+### If you're a Vibe Coder
+Add to your assistent Cursor, Trae, Windsurf, VSCode:
+```json
+{
+  "mcpServers": {
+    "react-bits": {
+      "command": "npx",
+      "args": [
+        "reactbits-mcp-server"
+      ],
+      "env": {
+        "your-Github-Access-Token"
+      }
+    }
+  }
+}```
 
 ## 🛠️ Available Tools
 
